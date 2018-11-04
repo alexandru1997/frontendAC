@@ -1,20 +1,23 @@
-.ac_image {
-  float: left;
-  width: 100px;
-  height: 100px;
+.item > img {
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  line-height: 1;
+  height: 400px;
+  display: block;
+  max-width: 100%;
+  opacity: 0.35;
 }
 
-.ac_image_right {
-  float: left;
-  width: 250px;
-  height: 100px;
+#bar-carousel-header-ac{
+  background: rgba(0, 0, 0, 0.5);
 }
 
-.ac_name {
-  float: left;
-  margin-top: 38px;
+#carousel-header-ac .carousel-caption{
+  top: 20px;
+  font-family: "Roboto";
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.6);
 }
 
-.header_ac {
-  margin-left: 275px;
-}
