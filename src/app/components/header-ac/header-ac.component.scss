@@ -7,17 +7,18 @@
   height: 400px;
   display: block;
   max-width: 100%;
-  opacity: 0.35;
+  opacity: 0.30;
+  border-radius: 30px 30px 30px 30px;
 }
 
 #bar-carousel-header-ac{
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.65);
 }
 
 #carousel-header-ac .carousel-caption{
   top: 20px;
   font-family: "Roboto";
   text-align: center;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+  text-shadow: 0 1px 2px rgba(0,0,0,1);
 }
 

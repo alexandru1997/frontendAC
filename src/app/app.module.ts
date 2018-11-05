@@ -6,15 +6,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import {MatDividerModule} from '@angular/material';
 import { HeaderAcComponent } from './components/header-ac/header-ac.component';
-import { ListComponent } from './components/list/list.component';
 import {MatListModule} from '@angular/material/list';
+import { InfoBarComponent } from './components/info-bar/info-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HeaderAcComponent,
-    ListComponent
+    InfoBarComponent
   ],
   imports: [
     BrowserModule,
